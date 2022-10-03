@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Detnalika</title>
+	<meta name="robots" content="noindex">
+	<meta name="description" content="Стоматологический центр">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
+	<link rel="icon" href="accets/images/favicon.png">
+	<!-- <meta property="og:image" content="images/preview.jpg"> -->
+
+	<link rel="preload" as="image" href="accets/images/header-sl-1-at-05x.webp">
+	<link rel="preload" as="image" href="accets/images/header-sl-2-at-05x.webp">
+	<link rel="preload" as="image" href="accets/images/header-sl-3-at-05x.webp">
+	<link rel="preload" href="accets/libs/bootstrap/dist/css/bootstrap-grid.min.css" as="style">
+	<link rel="preload" href="accets/libs/slick-carousel/slick.css" as="style">
+	<link rel="preload" href="accets/libs/jquery/jquery-3.6.0.min.js" as="script">
+		<link rel="preload" href="accets/libs/slick-carousel/slick.min.js" as="script">
+		<link rel="preload" href="accets/libs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js" as="script">
+	<style>
+		/* bootsrap-reboot cleaned */
+		:root{--bs-body-color-rgb: 33, 37, 41}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}body{margin:0}abbr[data-bs-original-title],abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted;cursor:help;-webkit-text-decoration-skip-ink:none;text-decoration-skip-ink:none}table{caption-side:bottom;border-collapse:collapse}caption{padding-top:.5rem;padding-bottom:.5rem;color:rgba(var(--bs-body-color-rgb),.75);text-align:left}th{text-align:inherit;text-align:-webkit-match-parent}tbody,td,tfoot,th,thead,tr{border-color:inherit;border-style:solid;border-width:0}label{display:inline-block}button{border-radius:0}button:focus:not(:focus-visible){outline:0}button,input,optgroup,select,textarea{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,select{text-transform:none}[role=button]{cursor:pointer}select{word-wrap:normal}select:disabled{opacity:1}[list]:not([type=date]):not([type=datetime-local]):not([type=month]):not([type=week]):not([type=time])::-webkit-calendar-picker-indicator{display:none!important}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled),button:not(:disabled){cursor:pointer}::-moz-focus-inner{padding:0;border-style:none}textarea{resize:vertical}fieldset{min-width:0;padding:0;margin:0;border:0}::-webkit-datetime-edit-day-field,::-webkit-datetime-edit-fields-wrapper,::-webkit-datetime-edit-hour-field,::-webkit-datetime-edit-minute,::-webkit-datetime-edit-month-field,::-webkit-datetime-edit-text,::-webkit-datetime-edit-year-field{padding:0}::-webkit-inner-spin-button{height:auto}[type=search]{outline-offset:-2px;-webkit-appearance:textfield}::file-selector-button{font:inherit;-webkit-appearance:button}[hidden]{display:none!important}
+	</style>
+	<!-- <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap-reboot.min.css"> -->
+	<link rel="stylesheet" href="accets/libs/bootstrap/dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="accets/libs/hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" href="accets/libs/slick-carousel/slick.css">
+	<link rel="stylesheet" href="accets/css/main.css">
+</head>
+
+<body class="service">
+	<header class="header">
+		<div class="container-xl">
+			<div class="row">
+				<div class="col-12">
+					<div class="top-line">
+						<div class="hamburger-wrapper">
+							<div class="hamburger hamburger--elastic">
+								<div class="hamburger-box">
+									<div class="hamburger-inner"></div>
+								</div>
+							</div>
+						</div>
+						<a href="/" class="custom-logo-link" rel="home">
+							<img src="accets/images/logo.svg" class="custom-logo" alt="Логотип клиники Dentalika" width="245" height="71">
+						</a>
+						<nav class="menu-wrapper header__menu-wrapper">
+							<ul class="menu">
+								<li class="menu-item menu-item-home current-menu-item">
+									<a href="#services">Услуги</a>
+								</li>
+								<li class="menu-item">
+									<a href="#specialists">Специалисты</a>
+								</li>
+								<li class="menu-item">
+									<a href="#articles">Блог</a>
+								</li>
+								<li class="menu-item">
+									<a href="#foto">Фотогалерея</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Оборудование</a>
+								</li>
+								<li class="menu-item">
+									<a href="#">Прайc</a>
+								</li>
+								<li class="menu-item">
+									<a href="#contacts">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+						<button class="top-line__btn btn-1 call-back-btn">Записаться</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="content">
+		<div class="container-xl">
+			<div class="row s-header">
+				<div class="col-sm-7 col-md-8 s-header__left-wrapper">
+					<div class="s-header__left s-header__left--service">
+						<div class="s-header-name">Профгигиена</div>
+						<h1 class="s-header__title">Профессиональная чистка</h1>
+						<div class="s-header__offer">
+							Мы относимся к профессиональной гигиене также серьезно, как и к лечению зубов!
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-md-4">
+					<div class="s-header__right">
+						<picture>
+							<source srcset='accets/images/service-header.jpg 1x,
+										accets/images/service-header-f.jpg 2x'
+									media='(min-width: 576px)'>
+							<source srcset='accets/images/service-header.jpg'
+									media='(max-width: 576px)'>
+							<img width='416' height='469' src='accets/images/service-header.jpg' alt='' title=''
+									sizes='(min-width: 576px) 40vw, 100vw'
+									srcset='accets/images/service-header.jpg 416w,
+										accets/images/service-header-f.jpg 832w'>
+						</picture>
+						<!-- <img src="accets/images/service-header-f.jpg" alt=""> -->
+					</div>
+				</div>
+			</div>
+			<div class='row justify-content-center mt-50'>
+				<div class="col-lg-11 col-xl-10">
+					<p>
+						Налёт на зубах образуется ежедневно. И даже если вы чистите зубы утром и вечером, то удаляете
+						лишь часть бактериальной биопленки и частичек пищи. Регулярная качественная профессиональная
+						чистка обеспечит идеальный внешний вид зубов, профилактику кариеса, здоровье десен, а также
+						успешное функционирование ваших реставраций и имплантатов.
+					</p>
+					<h2>
+						Мы относимся к профессиональной гигиене также серьезно, как и к лечению зубов!
+					</h2>
+					<p>
+						В нашем центре процедуру проводит врач-пародонтолог, специалист по профессиональной гигиене
+						полости рта и отбеливанию зубов, член Украинской академии пародонтологии (UAP) Маскалёва
+						Екатерина Валерьевна.
+					</p>
+					<p>
+						Профессиональная гигиена проводится с помощью инновационного аппарата AIRFLOW® Prophylaxis
+						Master от ЕМS (Швейцария) — мирового лидера в производстве продукции для профессиональной
+						гигиены полости рта.
+					</p>
+					<p>
+						Аппарат впервые был представлен в 2019 году на Всемирной стоматологической выставке IDS в Кёльне
+						и стал обязательным для самых компетентных клиник по всему миру.
+					</p>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<div class='row combo-img justify-content-center'>
+						<div class="col-sm-6 mt-40-30">
+							<div class="rounded-30">
+								<img src="accets/images/combo-left.jpg" alt="" class="image">
+							</div>
+						</div>
+						<div class="col-sm-6 mt-40-30">
+							<div class="rounded-30">
+								<img src="accets/images/combo-right.jpg" alt="" class="image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<div class="list-block">
+						<h2 class="list-block__title">
+							Аппарат оснащен системой NO PAIN (Без боли!)
+						</h2>
+						<ul class="list-block__list">
+							<li class="list-block__item">
+								<div class="list-block__item-left">1</div>
+								<div class="list-block__item-right">
+									<p>
+										Умная система подаёт колебания на ультразвуковые насадки только при наличии твёрдых зубных отложений, а на чистую поверхность зуба колебания не распространяются, тем самым, не оказывая никакого воздействия на ткани.
+									</p>
+								</div>
+							</li>
+							<li class="list-block__item">
+								<div class="list-block__item-left">2</div>
+								<div class="list-block__item-right">
+									<p>
+										Именно это и гарантирует полное отсутствие неприятных ощущений во время процедуры.
+									</p>
+								</div>
+							</li>
+							<li class="list-block__item">
+								<div class="list-block__item-left">3</div>
+								<div class="list-block__item-right">
+									<p>
+										Соответственно при чистке этим ультразвуком не формируются микродефекты эмали и корня, не остаются царапины на краях керамики и имплантах.
+									</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<div class="full-image rounded-30 mt-50-30">
+						<img src="accets/images/full-image.jpg" alt="" class="image">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<h2>Оригинальные порошки EMS (Швейцария)</h2>
+					<ul>
+						<li>Очищают без повреждений;</li>
+						<li>Не провоцируют чувствительность;</li>
+						<li>Полируют поверхность зуба, которая не меняется в течение 3-6 месяцев;</li>
+					</ul>
+					<p>
+						Другие порошки оставляют пористую поверхность и эффективность такой чистки равна 0 уже через 2
+						недели. Мы расскажем вам о правильной домашней гигиене и подберем средства для ухода за зубами и
+						ротовой полостью.
+					</p>
+				</div>
+			</div>
+			<div class='row justify-content-center'>
+				<div class="col-lg-11 col-xl-10">
+					<div class="block-1">
+						<div class="block-1__img block-1__img--26">
+							<img src="accets/images/left-img.jpg" class="image" alt="" title="">
+						</div>
+						<p>
+							Человеку мало иметь просто здоровые зубы. Каждый хочет быть обладателем белоснежной улыбки. К счастью, в наше время сделать отбеливание зубов – это совсем несложно. Современные методы и технологии позволяют обеспечить полную безопасность процесса, что является решающим фактором для многих.
+						</p>
+						<h2>
+							Белоснежная улыбка – тренд, который никогда не выйдет из моды!
+						</h2>
+						<p>
+							В течение жизни в поры зубов проникают различные красящие вещества, такие как: кофе, крепкий чай, никотин, красители от газированных напитков и т.п. Врачи нашего Стоматологического центра определят причину изменения цвета Ваших зубов и предложат для Вас наиболее оптимальный вариант решения проблемы.
+						</p>
+						<p>
+							Прежде всего необходимо пройти в обязательном порядке осмотр у врача-стоматолога по поводу показаний и противопоказаний к медицинскому отбеливанию зубов, а также профессиональную гигиену полости рта (идеально за 1-2 дня до начала отбеливания). Это делается для того, чтобы полностью очистить поверхность Ваших зубов от любого налета для полноценного проникновения отбеливающего агента в твердые ткани зуба.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row list-block justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<h2 class="list-block__title">
+						Как часто нужна профессиональная гигиена зубов у стоматолога?
+					</h2>
+					<ul class="list-block__list">
+						<li class="list-block__item">
+							<div class="list-block__item-left">1</div>
+							<div class="list-block__item-right">При соблюдении правильной ежедневной гигиены полости
+								рта, профессиональную чистку рекомендуют делать взрослым не реже 1 раза в 6 месяцев.
+							</div>
+						</li>
+						<li class="list-block__item">
+							<div class="list-block__item-left">2</div>
+							<div class="list-block__item-right">При прохождении ортодонтического лечения — не реже 1
+								раза в 3 месяца.</div>
+						</li>
+						<li class="list-block__item">
+							<div class="list-block__item-left">3</div>
+							<div class="list-block__item-right">При наличии воспалительных заболеваний тканей пародонта,
+								после проведенного базового лечения у стоматолога-пародонтолога необходимо 1 раз в 3
+								месяца проводить специальную (поддерживающую) гигиену.</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class='row justify-content-center'>
+				<div class="col-lg-11 col-xl-10">
+					<div class='block-3 mt-40-30'>
+						<div class="block-3__left">
+							<div class="img-wrapper">
+								<img src="accets/images/lz-left-60.png" alt="" title="">
+							</div>
+						</div>
+						<div class="block-3__right">
+							<div class="img-wrapper">
+								<img src="accets/images/lz-right-40.png" alt="" title="">
+							</div>
+						</div>
+					</div>
+					<div class="triple-img">
+						<div class="triple-img__item img-wrapper">
+							<img src="/accets/images/triple-img/kopiya-pro_8210-1536x1024.jpg" loading="lazy" alt="" title="">
+						</div>
+						<div class="triple-img__item img-wrapper">
+							<img src="/accets/images/triple-img/kopiya-pro_8276-1536x1024.jpg" loading="lazy" alt="" title="">
+						</div>
+						<div class="triple-img__item img-wrapper">
+							<img src="/accets/images/triple-img/kopiya-pro_8213-1536x1024.jpg" loading="lazy" alt="" title="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-50-30 justify-content-center">
+				<div class="col-lg-11 col-xl-10">
+					<div class="c-soc rounded-30">
+						<h2 class="c-soc__title">Наши работы вы можете посмотреть в соцсетях:</h2>
+						<div class="c-soc__inner">
+							<div class="c-soc__inner__left">
+								<div class="c-soc__inner-icons">
+									<a href="https://www.facebook.com/dentalikaodessa" class="c-soc__item"
+										target='blank' rel="noopener">
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="19.9928" cy="19.9928" r="19.9928" fill="#3AADA7"/>
+											<path d="M19.993 9.49756C16.9658 9.49756 16.5862 9.5104 15.3973 9.56462C14.2109 9.61875 13.4007 9.8072 12.6917 10.0827C11.9587 10.3675 11.3371 10.7487 10.7175 11.3683C10.0978 11.988 9.71666 12.6096 9.43184 13.3426C9.15628 14.0516 8.9679 14.8618 8.91371 16.0482C8.85949 17.2371 8.84668 17.6167 8.84668 20.6438C8.84668 23.6709 8.85949 24.0505 8.91371 25.2394C8.9679 26.4258 9.15628 27.236 9.43184 27.945C9.71669 28.678 10.0978 29.2996 10.7175 29.9193C11.3372 30.5389 11.9587 30.9201 12.6917 31.2049C13.4007 31.4804 14.2109 31.6688 15.3973 31.723C16.5862 31.7772 16.9658 31.79 19.993 31.79C23.02 31.79 23.3996 31.7772 24.5885 31.723C25.7749 31.6689 26.5851 31.4804 27.2941 31.2049C28.0271 30.9201 28.6487 30.5389 29.2684 29.9193C29.888 29.2996 30.2692 28.678 30.554 27.945C30.8295 27.236 31.018 26.4258 31.0721 25.2394C31.1263 24.0505 31.1392 23.6709 31.1392 20.6438C31.1392 17.6167 31.1263 17.2371 31.0721 16.0482C31.018 14.8618 30.8295 14.0516 30.554 13.3426C30.2692 12.6096 29.888 11.988 29.2684 11.3683C28.6487 10.7487 28.0271 10.3675 27.2941 10.0827C26.5851 9.8072 25.7749 9.61875 24.5885 9.56462C23.3996 9.5104 23.02 9.49756 19.993 9.49756ZM19.993 11.5059C22.9691 11.5059 23.3216 11.5173 24.497 11.5709C25.5837 11.6204 26.1739 11.802 26.5666 11.9547C27.087 12.1569 27.4582 12.3984 27.8483 12.7884C28.2383 13.1785 28.4798 13.5498 28.6821 14.0701C28.8347 14.4628 29.0163 15.053 29.0658 16.1398C29.1195 17.3151 29.1308 17.6676 29.1308 20.6438C29.1308 23.62 29.1195 23.9725 29.0658 25.1478C29.0163 26.2346 28.8347 26.8248 28.6821 27.2175C28.4798 27.7378 28.2383 28.1091 27.8483 28.4991C27.4582 28.8892 27.0869 29.1307 26.5667 29.3329C26.1739 29.4856 25.5837 29.6672 24.497 29.7167C23.3218 29.7703 22.9693 29.7817 19.9929 29.7817C17.0165 29.7817 16.6641 29.7703 15.4889 29.7167C14.4021 29.6672 13.8119 29.4856 13.4192 29.3329C12.8989 29.1307 12.5276 28.8892 12.1376 28.4991C11.7475 28.1091 11.506 27.7378 11.3038 27.2175C11.1511 26.8248 10.9696 26.2346 10.92 25.1478C10.8664 23.9725 10.855 23.62 10.855 20.6438C10.855 17.6676 10.8664 17.3151 10.92 16.1398C10.9696 15.053 11.1511 14.4628 11.3038 14.0701C11.506 13.5498 11.7475 13.1785 12.1376 12.7885C12.5276 12.3984 12.8989 12.1569 13.4192 11.9547C13.8119 11.802 14.4021 11.6204 15.4889 11.5709C16.6642 11.5173 17.0168 11.5059 19.9929 11.5059" fill="white"/>
+											<path d="M19.9931 24.3593C17.941 24.3593 16.2776 22.6959 16.2776 20.6439C16.2776 18.5919 17.941 16.9285 19.9931 16.9285C22.045 16.9285 23.7085 18.5919 23.7085 20.6439C23.7085 22.6959 22.045 24.3593 19.9931 24.3593ZM19.9931 14.9202C16.8319 14.9202 14.2693 17.4828 14.2693 20.6439C14.2693 23.8051 16.8319 26.3676 19.9931 26.3676C23.1542 26.3676 25.7168 23.8051 25.7168 20.6439C25.7168 17.4828 23.1542 14.9202 19.9931 14.9202V14.9202ZM27.2805 14.694C27.2805 15.4328 26.6816 16.0316 25.9429 16.0316C25.2042 16.0316 24.6054 15.4328 24.6054 14.694C24.6054 13.9553 25.2042 13.3564 25.9429 13.3564C26.6816 13.3564 27.2805 13.9553 27.2805 14.694" fill="white"/>
+										</svg>
+									</a>
+									<a href="https://www.instagram.com/accounts/login/?next=/dentalikaodessa/"
+										class="c-soc__item" target='blank' rel="noopener">
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="20.0009" cy="19.9928" r="19.9928" fill="white" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M0.00292969 19.9928C0.00292969 8.9511 8.95403 0 19.9958 0C31.0375 0 39.9886 8.9511 39.9886 19.9928C39.9886 31.0346 31.0375 39.9857 19.9958 39.9857C8.95403 39.9857 0.00292969 31.0346 0.00292969 19.9928ZM22.0797 31.7482V20.871H25.0822L25.4801 17.1227H22.0797L22.0848 15.2466C22.0848 14.269 22.1776 13.7452 23.5818 13.7452H25.4589V9.99642H22.4559C18.8488 9.99642 17.5792 11.8148 17.5792 14.8726V17.1231H15.3308V20.8715H17.5792V31.7482H22.0797Z"
+												fill="#3AADA7" />
+										</svg>
+									</a>
+								</div>
+								<div class="c-soc__legend">@dentalikaodessa</div>
+							</div>
+							<div class="c-soc__inner__right">
+								<div class="c-soc__inner-icons">
+									<a href="https://www.facebook.com/dr.kateryna_maskalova" class="c-soc__item"
+										target='blank' rel="noopener">
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="19.9928" cy="19.9928" r="19.9928" fill="#3AADA7"/>
+											<path d="M19.993 9.49756C16.9658 9.49756 16.5862 9.5104 15.3973 9.56462C14.2109 9.61875 13.4007 9.8072 12.6917 10.0827C11.9587 10.3675 11.3371 10.7487 10.7175 11.3683C10.0978 11.988 9.71666 12.6096 9.43184 13.3426C9.15628 14.0516 8.9679 14.8618 8.91371 16.0482C8.85949 17.2371 8.84668 17.6167 8.84668 20.6438C8.84668 23.6709 8.85949 24.0505 8.91371 25.2394C8.9679 26.4258 9.15628 27.236 9.43184 27.945C9.71669 28.678 10.0978 29.2996 10.7175 29.9193C11.3372 30.5389 11.9587 30.9201 12.6917 31.2049C13.4007 31.4804 14.2109 31.6688 15.3973 31.723C16.5862 31.7772 16.9658 31.79 19.993 31.79C23.02 31.79 23.3996 31.7772 24.5885 31.723C25.7749 31.6689 26.5851 31.4804 27.2941 31.2049C28.0271 30.9201 28.6487 30.5389 29.2684 29.9193C29.888 29.2996 30.2692 28.678 30.554 27.945C30.8295 27.236 31.018 26.4258 31.0721 25.2394C31.1263 24.0505 31.1392 23.6709 31.1392 20.6438C31.1392 17.6167 31.1263 17.2371 31.0721 16.0482C31.018 14.8618 30.8295 14.0516 30.554 13.3426C30.2692 12.6096 29.888 11.988 29.2684 11.3683C28.6487 10.7487 28.0271 10.3675 27.2941 10.0827C26.5851 9.8072 25.7749 9.61875 24.5885 9.56462C23.3996 9.5104 23.02 9.49756 19.993 9.49756ZM19.993 11.5059C22.9691 11.5059 23.3216 11.5173 24.497 11.5709C25.5837 11.6204 26.1739 11.802 26.5666 11.9547C27.087 12.1569 27.4582 12.3984 27.8483 12.7884C28.2383 13.1785 28.4798 13.5498 28.6821 14.0701C28.8347 14.4628 29.0163 15.053 29.0658 16.1398C29.1195 17.3151 29.1308 17.6676 29.1308 20.6438C29.1308 23.62 29.1195 23.9725 29.0658 25.1478C29.0163 26.2346 28.8347 26.8248 28.6821 27.2175C28.4798 27.7378 28.2383 28.1091 27.8483 28.4991C27.4582 28.8892 27.0869 29.1307 26.5667 29.3329C26.1739 29.4856 25.5837 29.6672 24.497 29.7167C23.3218 29.7703 22.9693 29.7817 19.9929 29.7817C17.0165 29.7817 16.6641 29.7703 15.4889 29.7167C14.4021 29.6672 13.8119 29.4856 13.4192 29.3329C12.8989 29.1307 12.5276 28.8892 12.1376 28.4991C11.7475 28.1091 11.506 27.7378 11.3038 27.2175C11.1511 26.8248 10.9696 26.2346 10.92 25.1478C10.8664 23.9725 10.855 23.62 10.855 20.6438C10.855 17.6676 10.8664 17.3151 10.92 16.1398C10.9696 15.053 11.1511 14.4628 11.3038 14.0701C11.506 13.5498 11.7475 13.1785 12.1376 12.7885C12.5276 12.3984 12.8989 12.1569 13.4192 11.9547C13.8119 11.802 14.4021 11.6204 15.4889 11.5709C16.6642 11.5173 17.0168 11.5059 19.9929 11.5059" fill="white"/>
+											<path d="M19.9931 24.3593C17.941 24.3593 16.2776 22.6959 16.2776 20.6439C16.2776 18.5919 17.941 16.9285 19.9931 16.9285C22.045 16.9285 23.7085 18.5919 23.7085 20.6439C23.7085 22.6959 22.045 24.3593 19.9931 24.3593ZM19.9931 14.9202C16.8319 14.9202 14.2693 17.4828 14.2693 20.6439C14.2693 23.8051 16.8319 26.3676 19.9931 26.3676C23.1542 26.3676 25.7168 23.8051 25.7168 20.6439C25.7168 17.4828 23.1542 14.9202 19.9931 14.9202V14.9202ZM27.2805 14.694C27.2805 15.4328 26.6816 16.0316 25.9429 16.0316C25.2042 16.0316 24.6054 15.4328 24.6054 14.694C24.6054 13.9553 25.2042 13.3564 25.9429 13.3564C26.6816 13.3564 27.2805 13.9553 27.2805 14.694" fill="white"/>
+										</svg>
+									</a>
+									<a href="https://www.instagram.com/accounts/login/?next=/dr.kateryna_maskalova/"
+										class="c-soc__item" target='blank' rel="noopener">
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="20.0009" cy="19.9928" r="19.9928" fill="white" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M0.00292969 19.9928C0.00292969 8.9511 8.95403 0 19.9958 0C31.0375 0 39.9886 8.9511 39.9886 19.9928C39.9886 31.0346 31.0375 39.9857 19.9958 39.9857C8.95403 39.9857 0.00292969 31.0346 0.00292969 19.9928ZM22.0797 31.7482V20.871H25.0822L25.4801 17.1227H22.0797L22.0848 15.2466C22.0848 14.269 22.1776 13.7452 23.5818 13.7452H25.4589V9.99642H22.4559C18.8488 9.99642 17.5792 11.8148 17.5792 14.8726V17.1231H15.3308V20.8715H17.5792V31.7482H22.0797Z"
+												fill="#3AADA7" />
+										</svg>
+									</a>
+								</div>
+								<div class="c-soc__legend">@dr.kateryna_maskalova</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div class="group-foto img-wrapper mt-50">
+						<picture>
+							<source srcset='accets/images/we-are.jpg 1x,
+										accets/images/we-are-at-2x.jpg 2x' media='(min-width: 1170px)'>
+							<source srcset='accets/images/we-are.jpg' media='(min-width: 585px)'>
+							<source srcset='accets/images/we-are-at-05x.jpg' media='(max-width: 585px)'>
+							<img width='' height='' loading="lazy" src='accets/images/we-are.jpg' alt='' title=''
+								sizes='(min-width: 585px) 100vw, 100vw' srcset='accets/images/we-are-at-05x.jpg 585w,
+										accets/images/we-are.jpg 1296w,
+										accets/images/we-are-at-2x.jpg 2592w'>
+						</picture>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-xl">
+			<form class="form static-form">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="form-info">
+							<div class="form-info__title">Свяжитесь с нами</div>
+							<div class="form-info__subtitle">Мы готовы ответить на любые ваши вопросы</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="form-fields">
+							<label for="static-name" class="form-label static-form__form-label">
+								Ваше имя
+								<div class="input-wrapper static-form__input-wrapper">
+									<input class="f-input" name="static-name" id="static-name" type="text" placeholder="Имя..."
+										required>
+								</div>
+							</label>
+							<label for="static-phone" class="form-label static-form__form-label">
+								Номер телефона
+								<div class="input-wrapper static-form__input-wrapper">
+									<input class="f-input" name="static-phone" id="static-phone" type="text" placeholder="Телефон..."
+										required>
+								</div>
+							</label>
+							<button class="static-form__btn btn-5" type="submit">записаться</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</main>
+	<footer>
+		<div class="footer">
+			<div class="container-xl">
+				<div class="row">
+					<div class="col-12">
+						<div class="footer-inner">
+							<nav class="menu-wrapper footer__menu-wrapper">
+								<ul class="menu">
+									<li class="menu-item menu-item-home current-menu-item">
+										<a href="#services">Услуги</a>
+									</li>
+									<li class="menu-item">
+										<a href="#specialists">Специалисты</a>
+									</li>
+									<li class="menu-item">
+										<a href="#articles">Блог</a>
+									</li>
+									<li class="menu-item">
+										<a href="#foto">Фотогалерея</a>
+									</li>
+									<li class="menu-item">
+										<a href="#">Оборудование</a>
+									</li>
+									<li class="menu-item">
+										<a href="#">Прайc</a>
+									</li>
+									<li class="menu-item">
+										<a href="#contacts">Контакты</a>
+									</li>
+								</ul>
+							</nav>
+							<div class="footer__bottom-line">
+								<div class="social footer__social">
+									<a href="#" class="footer__social-item" target='blank'>
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="19.9928" cy="19.9928" r="19.9928" fill="url(#soc-gradient-1)"></circle>
+											<path d="M19.993 9.49756C16.9658 9.49756 16.5862 9.5104 15.3973 9.56462C14.2109 9.61875 13.4007 9.8072 12.6917 10.0827C11.9587 10.3675 11.3371 10.7487 10.7175 11.3683C10.0978 11.988 9.71666 12.6096 9.43184 13.3426C9.15628 14.0516 8.9679 14.8618 8.91371 16.0482C8.85949 17.2371 8.84668 17.6167 8.84668 20.6438C8.84668 23.6709 8.85949 24.0505 8.91371 25.2394C8.9679 26.4258 9.15628 27.236 9.43184 27.945C9.71669 28.678 10.0978 29.2996 10.7175 29.9193C11.3372 30.5389 11.9587 30.9201 12.6917 31.2049C13.4007 31.4804 14.2109 31.6688 15.3973 31.723C16.5862 31.7772 16.9658 31.79 19.993 31.79C23.02 31.79 23.3996 31.7772 24.5885 31.723C25.7749 31.6689 26.5851 31.4804 27.2941 31.2049C28.0271 30.9201 28.6487 30.5389 29.2684 29.9193C29.888 29.2996 30.2692 28.678 30.554 27.945C30.8295 27.236 31.018 26.4258 31.0721 25.2394C31.1263 24.0505 31.1392 23.6709 31.1392 20.6438C31.1392 17.6167 31.1263 17.2371 31.0721 16.0482C31.018 14.8618 30.8295 14.0516 30.554 13.3426C30.2692 12.6096 29.888 11.988 29.2684 11.3683C28.6487 10.7487 28.0271 10.3675 27.2941 10.0827C26.5851 9.8072 25.7749 9.61875 24.5885 9.56462C23.3996 9.5104 23.02 9.49756 19.993 9.49756ZM19.993 11.5059C22.9691 11.5059 23.3216 11.5173 24.497 11.5709C25.5837 11.6204 26.1739 11.802 26.5666 11.9547C27.087 12.1569 27.4582 12.3984 27.8483 12.7884C28.2383 13.1785 28.4798 13.5498 28.6821 14.0701C28.8347 14.4628 29.0163 15.053 29.0658 16.1398C29.1195 17.3151 29.1308 17.6676 29.1308 20.6438C29.1308 23.62 29.1195 23.9725 29.0658 25.1478C29.0163 26.2346 28.8347 26.8248 28.6821 27.2175C28.4798 27.7378 28.2383 28.1091 27.8483 28.4991C27.4582 28.8892 27.0869 29.1307 26.5667 29.3329C26.1739 29.4856 25.5837 29.6672 24.497 29.7167C23.3218 29.7703 22.9693 29.7817 19.9929 29.7817C17.0165 29.7817 16.6641 29.7703 15.4889 29.7167C14.4021 29.6672 13.8119 29.4856 13.4192 29.3329C12.8989 29.1307 12.5276 28.8892 12.1376 28.4991C11.7475 28.1091 11.506 27.7378 11.3038 27.2175C11.1511 26.8248 10.9696 26.2346 10.92 25.1478C10.8664 23.9725 10.855 23.62 10.855 20.6438C10.855 17.6676 10.8664 17.3151 10.92 16.1398C10.9696 15.053 11.1511 14.4628 11.3038 14.0701C11.506 13.5498 11.7475 13.1785 12.1376 12.7885C12.5276 12.3984 12.8989 12.1569 13.4192 11.9547C13.8119 11.802 14.4021 11.6204 15.4889 11.5709C16.6642 11.5173 17.0168 11.5059 19.9929 11.5059" fill="white"></path>
+											<path d="M19.9931 24.3593C17.941 24.3593 16.2776 22.6959 16.2776 20.6439C16.2776 18.5919 17.941 16.9285 19.9931 16.9285C22.045 16.9285 23.7085 18.5919 23.7085 20.6439C23.7085 22.6959 22.045 24.3593 19.9931 24.3593ZM19.9931 14.9202C16.8319 14.9202 14.2693 17.4828 14.2693 20.6439C14.2693 23.8051 16.8319 26.3676 19.9931 26.3676C23.1542 26.3676 25.7168 23.8051 25.7168 20.6439C25.7168 17.4828 23.1542 14.9202 19.9931 14.9202V14.9202ZM27.2805 14.694C27.2805 15.4328 26.6816 16.0316 25.9429 16.0316C25.2042 16.0316 24.6054 15.4328 24.6054 14.694C24.6054 13.9553 25.2042 13.3564 25.9429 13.3564C26.6816 13.3564 27.2805 13.9553 27.2805 14.694" fill="white"></path>
+											<defs>
+												<linearGradient id="soc-gradient-1" x1="5.06799" y1="39.9274" x2="47.954" y2="27.0255" gradientUnits="userSpaceOnUse">
+													<stop offset="0" stop-color="#3878B9"></stop>
+													<stop offset="1" stop-color="#008CE0"></stop>
+												</linearGradient>
+											</defs>
+										</svg>
+									</a>
+									<a href="#" class="footer__social-item" target='blank'>
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="20.0009" cy="19.9928" r="19.9928" fill="white" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M0.00292969 19.9928C0.00292969 8.9511 8.95403 0 19.9958 0C31.0375 0 39.9886 8.9511 39.9886 19.9928C39.9886 31.0346 31.0375 39.9857 19.9958 39.9857C8.95403 39.9857 0.00292969 31.0346 0.00292969 19.9928ZM22.0797 31.7482V20.871H25.0822L25.4801 17.1227H22.0797L22.0848 15.2466C22.0848 14.269 22.1776 13.7452 23.5818 13.7452H25.4589V9.99642H22.4559C18.8488 9.99642 17.5792 11.8148 17.5792 14.8726V17.1231H15.3308V20.8715H17.5792V31.7482H22.0797Z"
+												fill="#3AADA7" />
+										</svg>
+									</a>
+									<a href="#" class="footer__social-item" target='blank'>
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="20.0041" cy="19.9928" r="19.9928" fill="white" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M20.0041 0C31.0458 0 39.9969 8.9511 39.9969 19.9928C39.9969 31.0346 31.0458 39.9857 20.0041 39.9857C8.96233 39.9857 0.0112305 31.0346 0.0112305 19.9928C0.0112305 8.9511 8.96233 0 20.0041 0ZM25.3306 17.4591C25.2333 16.6691 24.9905 16.0488 24.5593 15.4994C23.9994 14.7919 23.2839 14.3683 22.2245 14.117C21.5342 13.9494 21.2552 13.9687 21.0055 14.1968C20.773 14.4104 20.7275 14.8388 20.9053 15.1162C21.0303 15.3176 21.1745 15.3897 21.5755 15.4684C22.1096 15.5667 22.4787 15.6942 22.8144 15.8862C23.527 16.2976 23.8589 16.9415 23.8944 17.9839C23.911 18.4734 23.9533 18.6239 24.1242 18.7975C24.4411 19.1148 25.005 19.0531 25.2442 18.6733C25.3319 18.5302 25.3453 18.4679 25.3546 18.1356C25.3607 17.9298 25.3519 17.6235 25.3306 17.4591ZM25.3401 12.6123C27.0343 13.9823 27.9809 15.9295 28.1217 18.3498C28.1809 19.3031 28.1022 19.6135 27.7659 19.7904C27.4625 19.9543 27.1186 19.9003 26.8827 19.6536C26.7265 19.4932 26.6665 19.2737 26.6687 18.8851C26.6756 17.8107 26.4281 16.6109 26.0256 15.7783C25.5598 14.8093 24.8398 13.9847 23.934 13.3818C23.1406 12.8523 22.0906 12.4946 21.0725 12.4055C20.4121 12.3478 20.1763 12.2359 20.0496 11.9193C19.971 11.73 19.9918 11.4026 20.0838 11.2559C20.1709 11.1207 20.3662 10.9712 20.5043 10.9317C20.6506 10.889 21.5036 10.9636 21.9669 11.0557C23.2317 11.3131 24.3855 11.8425 25.3401 12.6123ZM31.2103 27.6704C31.1629 27.532 31.0525 27.3186 30.9735 27.1961C30.4763 26.4453 27.8051 24.3548 26.4713 23.6711C25.7098 23.2799 25.1456 23.1495 24.7273 23.272C24.2775 23.3985 24.0407 23.6079 23.2871 24.5445C22.9833 24.9199 22.6715 25.2716 22.5887 25.3269C22.3835 25.4692 21.981 25.5839 21.6969 25.5839C21.0379 25.5798 19.8424 25.1531 18.923 24.5919C18.2088 24.1572 17.2934 23.3787 16.591 22.6081C15.7623 21.7032 15.1982 20.9049 14.7522 20.0039C14.1762 18.846 14.0302 18.1386 14.2708 17.6209C14.33 17.4905 14.409 17.3522 14.4444 17.3087C14.48 17.2693 14.8509 16.9649 15.2612 16.633C16.0662 15.9928 16.1964 15.8466 16.3463 15.4079C16.5357 14.8507 16.4845 14.2816 16.1925 13.7087C15.9675 13.2739 15.3796 12.3255 14.9535 11.713C14.3892 10.9069 12.9845 9.18388 12.7043 8.95066C12.1993 8.53971 11.5522 8.46853 10.8379 8.74522C10.0844 9.03766 8.67171 10.1758 8.06798 10.9701C7.52346 11.6893 7.31439 12.1991 7.2828 12.8709C7.25519 13.4241 7.30253 13.6533 7.59452 14.3607C9.87916 19.909 13.2883 24.339 17.972 27.8561C20.4184 29.6937 22.9556 31.0926 25.5875 32.049C27.1224 32.6062 27.7892 32.6338 28.5744 32.1755C28.9059 31.9778 29.7266 31.1361 30.1843 30.5236C30.942 29.504 31.2221 29.0338 31.301 28.6583C31.3563 28.4015 31.3129 27.9549 31.2103 27.6704ZM30.2014 15.1617C30.682 16.4137 30.9125 17.5366 30.963 18.9057C30.9711 19.1761 30.9673 19.6716 30.9498 20.0073C30.9134 20.6507 30.8784 20.7786 30.6932 20.9488C30.3954 21.2282 29.8151 21.1616 29.595 20.8249C29.48 20.6443 29.4639 20.512 29.4861 19.7602C29.55 17.5365 29.1002 15.7953 28.0168 14.0543C26.7221 11.9655 24.7855 10.5583 22.2672 9.86994C21.625 9.69472 21.0838 9.58793 20.2422 9.47461C19.6939 9.40284 19.5738 9.3725 19.4385 9.28921C19.0297 9.02739 19.0242 8.3644 19.4318 8.09859C19.642 7.95827 19.7971 7.952 20.4826 8.03979C22.4925 8.29096 24.286 8.88821 25.7598 9.79071C26.8161 10.4385 27.4821 11.0204 28.3396 12.0395C29.2466 13.1265 29.7268 13.9301 30.2014 15.1617Z"
+												fill="#3AADA7" />
+										</svg>
+									</a>
+									<a href="#" class="footer__social-item" target='blank'>
+										<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<circle cx="20.007" cy="19.9928" r="19.9928" fill="white" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M20.007 39.9857C8.96526 39.9857 0.0141602 31.0346 0.0141602 19.9928C0.0141602 8.9511 8.96526 0 20.007 0C31.0487 0 39.9998 8.9511 39.9998 19.9928C39.9998 31.0346 31.0487 39.9857 20.007 39.9857ZM20.666 31.116C27.2207 31.1133 32.5517 25.781 32.5543 19.2277C32.5556 16.0512 31.3201 13.0643 29.0756 10.8173C26.8311 8.57015 23.8462 7.33208 20.6659 7.33071C14.1131 7.33071 8.78001 12.6635 8.7774 19.2183C8.77651 21.3136 9.32394 23.3587 10.3643 25.1617L8.67773 31.3221L14.9799 29.6689C16.7163 30.6161 18.6714 31.1153 20.6611 31.116H20.666Z"
+												fill="#3AADA7" />
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M15.272 27.5169L11.5322 28.4979L12.5304 24.8516L12.2954 24.4778C11.3063 22.9046 10.7839 21.0863 10.7847 19.2192C10.7868 13.7712 15.2195 9.33887 20.6699 9.33887C23.3092 9.33978 25.7901 10.3689 27.6557 12.2366C29.5213 14.1044 30.5481 16.5869 30.5471 19.2272C30.5449 24.6756 26.1122 29.1084 20.666 29.1084H20.662C18.8889 29.1077 17.1499 28.6313 15.6328 27.731L15.272 27.5169ZM26.6553 22.0549C26.5811 21.931 26.3831 21.8566 26.086 21.7079C25.789 21.5592 24.3286 20.8407 24.0562 20.7415C23.784 20.6424 23.5859 20.5929 23.3879 20.8901C23.1899 21.1875 22.6206 21.8566 22.4473 22.0549C22.274 22.2531 22.1007 22.278 21.8038 22.1292C21.5068 21.9806 20.5496 21.6669 19.415 20.6549C18.5319 19.8672 17.9357 18.8945 17.7625 18.5971C17.5892 18.2997 17.744 18.139 17.8927 17.9908C18.0263 17.8577 18.1898 17.6438 18.3383 17.4704C18.4868 17.297 18.5363 17.173 18.6353 16.9749C18.7343 16.7766 18.6848 16.6032 18.6106 16.4545C18.5363 16.3058 17.9422 14.8436 17.6947 14.2488C17.4536 13.6696 17.2087 13.7481 17.0263 13.7389C16.8533 13.7302 16.655 13.7284 16.457 13.7284C16.259 13.7284 15.9372 13.8027 15.6649 14.1001C15.3926 14.3975 14.6252 15.1162 14.6252 16.5782C14.6252 18.0404 15.6896 19.4529 15.8382 19.6511C15.9867 19.8494 17.9328 22.8497 20.9127 24.1364C21.6214 24.4425 22.1746 24.6253 22.6061 24.7622C23.3176 24.9883 23.9653 24.9564 24.477 24.8799C25.0478 24.7946 26.2345 24.1613 26.4821 23.4675C26.7296 22.7735 26.7296 22.1787 26.6553 22.0549Z"
+												fill="#3AADA7" />
+										</svg>
+									</a>
+								</div>
+								<div class="footer__copyright">© 2022 DENTALIKA</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="top-btn img-wrapper">
+			<svg viewBox="0 0 116 116" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<circle cx="58" cy="58" r="56" fill="white" stroke="#EEB83B" stroke-width="4" />
+				<path
+					d="M44.0796 52.1689L44 52.2852L54.5198 52.1444L54.9791 86L62.9394 85.896L62.4802 52.0343L72.8653 51.8996L73 51.8935L58.2796 31.0857L58.2183 31L44.0796 52.1689Z"
+					fill="#EEB83B" />
+			</svg>
+		</div>
+		<link rel="stylesheet" href="accets/libs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="accets/css/malihu-custom-scrollbar-user-styles.css">
+
+		<script src="accets/libs/jquery/jquery-3.6.0.min.js"></script>
+		<script src="accets/libs/slick-carousel/slick.min.js"></script>
+		<script src="accets/libs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="accets/js/main.js"></script>
+	</footer>
+</body>

@@ -1,0 +1,22 @@
+{
+  "name": "dentalika",
+  "homepage": "https://github.com/PetrJ-v/dentalika",
+  "authors": [
+    "Petr <shevron.dev@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "slick-slide#^1.8.1"
+  }
+}

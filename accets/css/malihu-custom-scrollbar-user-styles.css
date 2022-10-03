@@ -1,0 +1,21 @@
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background-color: var(--orange);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
+	background-color: var(--dent-green);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background-color: var(--dent-green);
+}
+
+.mCSB_scrollTools .mCSB_draggerRail {
+	/* bug fix */
+	position: absolute;
+	top: 0;
+	left: 50%;
+	height: 50vw;
+	transform: translateX(-50%);
+}
