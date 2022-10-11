@@ -136,21 +136,17 @@ function dentalika_content_width() {
 }
 add_action( 'after_setup_theme', 'dentalika_content_width', 0 );
 
-add_image_size( 'content', 1076, 1076, false );
-
 
 /**
  * Enqueue scripts and styles.
  */
 function dentalika_scripts() {
-	// wp_enqueue_style( 'dentalika-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_enqueue_style( 'bootstrap-reboot', get_template_directory_uri() . '/accets/libs/bootstrap/dist/css/bootstrap-reboot.min.css', array(), _S_VERSION );
 	wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri() . '/accets/libs/bootstrap/dist/css/bootstrap-grid.min.css', array('bootstrap-reboot'), _S_VERSION );
 	wp_enqueue_style( 'hamburgers', get_template_directory_uri() . '/accets/libs/hamburgers/hamburgers.min.css', array(), _S_VERSION );
 	wp_enqueue_style( 'slick', get_template_directory_uri() . '/accets/libs/slick-carousel/slick.css', array(), _S_VERSION );
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/accets/css/main.css', array('bootstrap-grid'), _S_VERSION );
 	// wp_style_add_data( 'dentalika-style', 'rtl', 'replace' );
-
 	// wp_enqueue_script( 'jquery', get_template_directory_uri() . '/accets/libs/jquery/jquery-3.6.0.min.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'slick', get_template_directory_uri() . '/accets/libs/slick-carousel/slick.min.js', array('jquery'), _S_VERSION, true );
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/accets/js/main1-4.js', array('slick'), _S_VERSION, true );
